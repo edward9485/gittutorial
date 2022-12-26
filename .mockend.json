@@ -4,7 +4,7 @@
     "comments": {
       "hasMany": "Comment"
     },
-    "autor": "string":{}}
+    "autor": {"string":{}}
   },
   "Comment": {
     "body": { "string": {} },
