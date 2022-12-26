@@ -5,7 +5,7 @@
       "hasMany": "Comment"
     },
     "autor": {"string":{}},
-    "numero":{"int":{}}
+    "numero":randomInt({ min: 10, max: 100 });
   },
   "Comment": {
     "body": { "string": {} },
