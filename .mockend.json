@@ -3,7 +3,8 @@
     "title": { "string": {} },
     "comments": {
       "hasMany": "Comment"
-    }
+    },
+    "autor": "string":{}}
   },
   "Comment": {
     "body": { "string": {} },
