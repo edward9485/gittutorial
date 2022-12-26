@@ -5,7 +5,7 @@
       "hasMany": "Comment"
     },
     "autor": {"string":{}},
-    "numero":{"int"{ min: 10, max: 100 }};
+    "numero":{"int":{ min: 10, max: 100 }}
   },
   "Comment": {
     "body": { "string": {} },
